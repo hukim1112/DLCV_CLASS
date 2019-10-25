@@ -1,0 +1,49 @@
+<문자 'A' 1000번 출력하기>
+
+Number : 2 * 3 = 6 
+String : 'a' * 3 = 'aaa'
+List : [1,2,3] * 3 = [1, 2, 3, 1, 2, 3, 1, 2, 3]
+!<문자 개수 출력하기>
+
+string : iterable object
+
+반복문을 활용해 한 글자씩 접근(for 문)
+조건문을 활용해 해당 문자인지 확인(if 문)
+!<서로 다른 알파벳의 개수>
+
+string : immutable object
+
+1.대문자 혹은 소문자로 통일(string.upper() / string.lower())
+2.중복된 알파벳 제거
+3.개수(길이) 구하기
+!<리스트에서 원소 추가 및 제거하기>
+
+요소 추가 : list.append()
+요소 제거 : list.remove()
+
+a = [1,2,3]
+b = a
+b[0] = 100
+print (a)
+
+모든 요소 복사 : b = a[:]
+!<리스트에서 원소별로 연산하기>
+
+방법1)for문 이용
+1. 빈 리스트 생성
+2. 각 원소에 접근하며 연산 후 리스트에 추가
+
+방법2)map함수 이용
+사용법 - map(function, iterable typed object)
+1. 함수 정의
+2. map 함수
+3. list(map())
+
+** lambda - 이름 없는 함수
+사용법 - lambda 매개변수 : 반환값
+!<함수 생성하기>
+
+함수 생성 - def 함수이름():
+반복문 활용해 리스트 각 요소에 접근
+자릿수 확인 : len(string)
+특수문자 확인 : in 연산자 / 논리 연산자
